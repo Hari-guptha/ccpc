@@ -248,9 +248,14 @@ background: linear-gradient(331deg, rgba(15,55,131,1) 0%, rgba(80,109,166,1) 100
 {
     .img-holder{
         width: 300px;
-        transform: translateX(20px);
+        transform: translateX(40px) !important;
+    }
+    .img-holder img{
+        transform: translateX(-20px);
     }
 }
+
+
 @media (max-width:768px) {
     .tagline {
         font-size: 17px;
@@ -373,10 +378,27 @@ background: linear-gradient(331deg, rgba(15,55,131,1) 0%, rgba(80,109,166,1) 100
     background-color:white !important;
     transform: translateY(-10px);
 }
+.brand-carousel .single-logo{
+    width: 180px;
+}
+
+@media only screen and (min-width:300px) and (max-width:700px)
+{
+    .brand-carousel{
+        transform: translateY(10px);
+        height: 300px;
+    }
+    .brand-carousel .single-logo img{
+        width: 200px;
+        transform: translateX(80px);
+    }
+}
+
+
+
 @media only screen and (min-width:1000px) and (max-width:1400px)
 {
     .mitimgpadding{
-        background-color: green;
         transform: translateY(90px);
     }
 
@@ -792,10 +814,7 @@ background: linear-gradient(331deg, rgba(15,55,131,1) 0%, rgba(80,109,166,1) 100
     }
   }
 /*video section*/
-.videoframeclass{
-    width:1100px;
-    height: 700px;
-}
+
 
 @media only screen and (min-width:300px) and (max-width:400px)
 {
@@ -868,4 +887,75 @@ background: linear-gradient(331deg, rgba(15,55,131,1) 0%, rgba(80,109,166,1) 100
   }
   
   
-  
+/*utbue videp*/
+@media only screen and (min-width:100px) and (max-width:1400px)
+{
+    
+}
+
+@media only screen and (min-width:300px) and (max-width:400px)
+{
+    .videosection{
+        transform: translateX(3px) !important;
+    }
+}
+
+
+@media only screen and (min-width:400px) and (max-width:420px)
+{
+    .videosection{
+        transform: translateX(-14px) !important;
+    }
+}
+
+
+@media only screen and (min-width:300px) and (max-width:400px)
+{
+    .imgmarkup{
+        margin-left: 29px;
+    }
+}
+@media only screen and (min-width:401px) and (max-width:430px)
+{
+    .imgmarkup{
+        margin-left: 49px;
+    }
+}
+
+
+
+.social-icons .icon1:hover{
+background-color: #012B7B;
+color: white;
+}
+
+.social-icons .icon2:hover{
+    background-color: #012B7B;
+    color: white;
+    }
+    .social-icons .icon3:hover{
+        background-color: #012B7B;
+        color: white;
+        }
+
+
+.downloadbtn{
+    background-color: #012B7B;
+    width:175px;
+    height:50px;
+    margin:20px;
+    color:white;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    width: 200px;
+}
+.logo{
+    margin-left: -26px;
+    transform: translateY(-37px);
+}
+
+.card-body{
+    height:170px;
+}
